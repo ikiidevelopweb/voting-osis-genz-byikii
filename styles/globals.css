@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+
+body {
+  background: linear-gradient(135deg, #f8f0ff 0%, #fff6f0 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  @apply bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-lg;
+}
